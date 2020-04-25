@@ -1,0 +1,9 @@
+self/SpiceJet/OneWayTripWorkFlow/CurrencyPickerTest.class
+self/SpiceJet/OnStartUp/StartUpTest.class
+self/SpiceJet/Checks/CheckURLAndBoxesBeforeAndAfter.class
+self/SpiceJet/SignIn/SignInTest.class
+self/SpiceJet/OnStartUp/ListenersTest.class
+self/SpiceJet/OneWayTripWorkFlow/SearchButtonTest.class
+self/SpiceJet/OneWayTripWorkFlow/CityPickerTest.class
+self/SpiceJet/OneWayTripWorkFlow/PaxPickerTest.class
+self/SpiceJet/OneWayTripWorkFlow/DatePickerTest.class

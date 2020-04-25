@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="self.SpiceJet.OnStartUp.ListenersTest"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/fida10/Programming/JavaProjects/MavenProjects/untitled/SelfFrameWork">
+        <classes>
+            <class name="self.SpiceJet.OnStartUp.StartUpTest"/>
+            <class name="self.SpiceJet.SignIn.SignInTest"/>
+            <class name="self.SpiceJet.OneWayTripWorkFlow.CityPickerTest"/>
+            <class name="self.SpiceJet.OneWayTripWorkFlow.DatePickerTest"/>
+            <class name="self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest"/>
+            <class name="self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest"/>
+            <class name="self.SpiceJet.OneWayTripWorkFlow.SearchButtonTest"/>
+        </classes>
+    </test>
+</suite>

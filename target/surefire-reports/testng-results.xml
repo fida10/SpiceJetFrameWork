@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-25T04:17:21 EDT" name="All Test Suite" finished-at="2020-04-25T04:18:14 EDT" duration-ms="52997">
+    <groups>
+    </groups>
+    <test started-at="2020-04-25T04:17:21 EDT" name="/Users/fida10/Programming/JavaProjects/MavenProjects/untitled/SelfFrameWork" finished-at="2020-04-25T04:18:14 EDT" duration-ms="52997">
+      <class name="self.SpiceJet.SignIn.SignInTest">
+        <test-method is-config="true" signature="loginURL()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:21 EDT" name="loginURL" finished-at="2020-04-25T04:17:27 EDT" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginURL -->
+        <test-method signature="signInUserName()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:27 EDT" name="signInUserName" finished-at="2020-04-25T04:17:28 EDT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInUserName -->
+        <test-method signature="signInPassWord()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:29 EDT" name="signInPassWord" finished-at="2020-04-25T04:17:29 EDT" depends-on-methods="self.SpiceJet.SignIn.SignInTest.signInUserName" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPassWord -->
+        <test-method signature="clickOnSubmitButton()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:29 EDT" name="clickOnSubmitButton" finished-at="2020-04-25T04:17:46 EDT" depends-on-methods="self.SpiceJet.SignIn.SignInTest.signInPassWord" duration-ms="16942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitButton -->
+        <test-method signature="logOutCurrentUser()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:47 EDT" name="logOutCurrentUser" finished-at="2020-04-25T04:17:53 EDT" depends-on-methods="self.SpiceJet.SignIn.SignInTest.clickOnSubmitButton" duration-ms="6521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutCurrentUser -->
+        <test-method is-config="true" signature="returnToHomePage()[pri:0, instance:self.SpiceJet.SignIn.SignInTest@3d3fcdb0]" started-at="2020-04-25T04:17:54 EDT" name="returnToHomePage" finished-at="2020-04-25T04:18:00 EDT" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePage -->
+      </class> <!-- self.SpiceJet.SignIn.SignInTest -->
+      <class name="self.SpiceJet.OneWayTripWorkFlow.DatePickerTest">
+        <test-method is-config="true" signature="ensureCorrectConditions()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.DatePickerTest@6e38921c]" started-at="2020-04-25T04:18:03 EDT" name="ensureCorrectConditions" finished-at="2020-04-25T04:18:03 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureCorrectConditions -->
+        <test-method signature="openDepartDateBox()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.DatePickerTest@6e38921c]" started-at="2020-04-25T04:18:03 EDT" name="openDepartDateBox" finished-at="2020-04-25T04:18:04 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDepartDateBox -->
+        <test-method signature="selectDate()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.DatePickerTest@6e38921c]" started-at="2020-04-25T04:18:05 EDT" name="selectDate" finished-at="2020-04-25T04:18:06 EDT" depends-on-methods="self.SpiceJet.OneWayTripWorkFlow.DatePickerTest.openDepartDateBox" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method is-config="true" signature="ensureBoxClosed()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.DatePickerTest@6e38921c]" started-at="2020-04-25T04:18:07 EDT" name="ensureBoxClosed" finished-at="2020-04-25T04:18:07 EDT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureBoxClosed -->
+      </class> <!-- self.SpiceJet.OneWayTripWorkFlow.DatePickerTest -->
+      <class name="self.SpiceJet.OneWayTripWorkFlow.SearchButtonTest">
+        <test-method is-config="true" signature="checkURLAndCloseBoxes()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.SearchButtonTest@49070868]" started-at="2020-04-25T04:18:10 EDT" name="checkURLAndCloseBoxes" finished-at="2020-04-25T04:18:10 EDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURLAndCloseBoxes -->
+        <test-method signature="clickOnSearchButton()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.SearchButtonTest@49070868]" started-at="2020-04-25T04:18:10 EDT" name="clickOnSearchButton" finished-at="2020-04-25T04:18:14 EDT" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchButton -->
+      </class> <!-- self.SpiceJet.OneWayTripWorkFlow.SearchButtonTest -->
+      <class name="self.SpiceJet.OnStartUp.StartUpTest">
+        <test-method is-config="true" signature="initialStartupTasks()[pri:0, instance:self.SpiceJet.OnStartUp.StartUpTest@6b0c2d26]" started-at="2020-04-25T04:17:15 EDT" name="initialStartupTasks" finished-at="2020-04-25T04:17:21 EDT" duration-ms="6475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialStartupTasks -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:self.SpiceJet.OnStartUp.StartUpTest@6b0c2d26]" started-at="2020-04-25T04:18:14 EDT" name="quit" finished-at="2020-04-25T04:18:15 EDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- self.SpiceJet.OnStartUp.StartUpTest -->
+      <class name="self.SpiceJet.OneWayTripWorkFlow.CityPickerTest">
+        <test-method is-config="true" signature="ensureCorrectConditions()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CityPickerTest@641147d0]" started-at="2020-04-25T04:18:00 EDT" name="ensureCorrectConditions" finished-at="2020-04-25T04:18:00 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureCorrectConditions -->
+        <test-method signature="selectDepCity()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CityPickerTest@641147d0]" started-at="2020-04-25T04:18:00 EDT" name="selectDepCity" finished-at="2020-04-25T04:18:01 EDT" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDepCity -->
+        <test-method signature="selectArrCity()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CityPickerTest@641147d0]" started-at="2020-04-25T04:18:02 EDT" name="selectArrCity" finished-at="2020-04-25T04:18:02 EDT" depends-on-methods="self.SpiceJet.OneWayTripWorkFlow.CityPickerTest.selectDepCity" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectArrCity -->
+        <test-method is-config="true" signature="ensureBoxClosed()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CityPickerTest@641147d0]" started-at="2020-04-25T04:18:03 EDT" name="ensureBoxClosed" finished-at="2020-04-25T04:18:03 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureBoxClosed -->
+      </class> <!-- self.SpiceJet.OneWayTripWorkFlow.CityPickerTest -->
+      <class name="self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest">
+        <test-method is-config="true" signature="ensureCorrectConditions()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest@27c6e487]" started-at="2020-04-25T04:18:09 EDT" name="ensureCorrectConditions" finished-at="2020-04-25T04:18:09 EDT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureCorrectConditions -->
+        <test-method signature="pickCurrency()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest@27c6e487]" started-at="2020-04-25T04:18:09 EDT" name="pickCurrency" finished-at="2020-04-25T04:18:09 EDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickCurrency -->
+        <test-method is-config="true" signature="ensureBoxClosed()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest@27c6e487]" started-at="2020-04-25T04:18:10 EDT" name="ensureBoxClosed" finished-at="2020-04-25T04:18:10 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureBoxClosed -->
+      </class> <!-- self.SpiceJet.OneWayTripWorkFlow.CurrencyPickerTest -->
+      <class name="self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest">
+        <test-method is-config="true" signature="ensureCorrectConditions()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest@64d7f7e0]" started-at="2020-04-25T04:18:07 EDT" name="ensureCorrectConditions" finished-at="2020-04-25T04:18:07 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureCorrectConditions -->
+        <test-method signature="pickPax()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest@64d7f7e0]" started-at="2020-04-25T04:18:07 EDT" name="pickPax" finished-at="2020-04-25T04:18:08 EDT" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickPax -->
+        <test-method is-config="true" signature="ensureBoxClosed()[pri:0, instance:self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest@64d7f7e0]" started-at="2020-04-25T04:18:09 EDT" name="ensureBoxClosed" finished-at="2020-04-25T04:18:09 EDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureBoxClosed -->
+      </class> <!-- self.SpiceJet.OneWayTripWorkFlow.PaxPickerTest -->
+    </test> <!-- /Users/fida10/Programming/JavaProjects/MavenProjects/untitled/SelfFrameWork -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
